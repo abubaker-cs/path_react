@@ -1,12 +1,12 @@
 import React from 'react';
 import { CssBaseline } from '@mui/material';
-// import { Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <div>
       <CssBaseline />
-      <h1>Hello, World - Movies</h1>
+      <h1>Hello, World - Filmpire</h1>
     </div>
   );
 }

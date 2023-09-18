@@ -1,5 +1,7 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client';
+
 import { BrowserRouter } from 'react-router-dom';
 
 import App from './components/App';
@@ -9,12 +11,9 @@ import App from './components/App';
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
-// 👇️ if you use TypeScript, add non-null (!) assertion operator
-// const root = createRoot(rootElement!);
-root.render(
+ReactDOM.render(
   <BrowserRouter>
     <App />
   </BrowserRouter>,
-  // eslint-disable-next-line comma-dangle
   document.getElementById('root')
 );

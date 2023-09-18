@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <CssBaseline />
-      <h1>Hello, World - Movies</h1>
+      <h1>Hello, World - Filmpire</h1>
     </div>
   );
 }
